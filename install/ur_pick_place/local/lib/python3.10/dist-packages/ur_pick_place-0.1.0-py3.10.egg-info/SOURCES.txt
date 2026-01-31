@@ -1,0 +1,6 @@
+setup.py
+ur_pick_place/__init__.py
+ur_pick_place.egg-info/PKG-INFO
+ur_pick_place.egg-info/SOURCES.txt
+ur_pick_place.egg-info/dependency_links.txt
+ur_pick_place.egg-info/top_level.txt

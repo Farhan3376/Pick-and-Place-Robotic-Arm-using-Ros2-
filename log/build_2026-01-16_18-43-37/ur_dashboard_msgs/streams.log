@@ -1,0 +1,687 @@
+[0.040s] Invoking command in '/home/farhan/Universal_robot_arm/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farhan/turtlebot3_ws/install/turtlebot3_teleop:/home/farhan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs
+[0.492s] -- The C compiler identification is GNU 11.4.0
+[0.799s] -- The CXX compiler identification is GNU 11.4.0
+[0.833s] -- Detecting C compiler ABI info
+[1.106s] -- Detecting C compiler ABI info - done
+[1.174s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.174s] -- Detecting C compile features
+[1.178s] -- Detecting C compile features - done
+[1.189s] -- Detecting CXX compiler ABI info
+[1.612s] -- Detecting CXX compiler ABI info - done
+[1.664s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.665s] -- Detecting CXX compile features
+[1.667s] -- Detecting CXX compile features - done
+[1.679s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.282s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.765s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.816s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.866s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.137s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.337s] -- Found action_msgs: 1.2.2 (/opt/ros/humble/share/action_msgs/cmake)
+[5.090s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.799s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.599s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.694s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[6.712s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.793s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[6.794s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.794s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.794s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.835s] -- Found PythonExtra: .so  
+[7.009s] -- Configuring done
+[7.253s] -- Generating done
+[7.301s] -- Build files have been written to: /home/farhan/Universal_robot_arm/build/ur_dashboard_msgs
+[7.318s] Invoked command in '/home/farhan/Universal_robot_arm/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farhan/turtlebot3_ws/install/turtlebot3_teleop:/home/farhan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs
+[7.323s] Invoking command in '/home/farhan/Universal_robot_arm/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farhan/turtlebot3_ws/install/turtlebot3_teleop:/home/farhan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/farhan/Universal_robot_arm/build/ur_dashboard_msgs -- -j4 -l4
+[7.535s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.620s] [  1%] Built target ament_cmake_python_copy_ur_dashboard_msgs
+[7.630s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.716s] running egg_info
+[8.717s] creating ur_dashboard_msgs.egg-info
+[8.718s] writing ur_dashboard_msgs.egg-info/PKG-INFO
+[8.718s] writing dependency_links to ur_dashboard_msgs.egg-info/dependency_links.txt
+[8.724s] writing top-level names to ur_dashboard_msgs.egg-info/top_level.txt
+[8.724s] writing manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[8.724s] reading manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[8.726s] writing manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[8.821s] [  1%] Built target ament_cmake_python_build_ur_dashboard_msgs_egg
+[14.101s] [  1%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/program_state__functions.c.o[0m
+[14.126s] [  2%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/robot_mode__functions.c.o[0m
+[14.147s] [  3%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/safety_mode__functions.c.o[0m
+[14.651s] [  3%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/add_to_log__functions.c.o[0m
+[14.685s] [  4%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.c.o[0m
+[14.694s] [  4%] Built target ur_dashboard_msgs__cpp
+[14.741s] [  5%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_program_state__functions.c.o[0m
+[14.767s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[15.082s] [  6%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.c.o[0m
+[15.266s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[15.610s] [  8%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.c.o[0m
+[15.612s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[16.366s] [  9%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_running__functions.c.o[0m
+[16.876s] [ 10%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_saved__functions.c.o[0m
+[17.386s] [ 10%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/load__functions.c.o[0m
+[17.956s] [ 11%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/popup__functions.c.o[0m
+[18.623s] [ 12%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/raw_request__functions.c.o[0m
+[19.173s] [ 12%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_in_remote_control__functions.c.o[0m
+[19.759s] [ 13%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/action/detail/set_mode__functions.c.o[0m
+[21.126s] [ 14%] [32m[1mLinking C shared library libur_dashboard_msgs__rosidl_generator_c.so[0m
+[21.376s] [ 14%] Built target ur_dashboard_msgs__rosidl_generator_c
+[22.028s] [ 15%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/program_state__type_support.cpp.o[0m
+[22.555s] [ 16%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/program_state__type_support.cpp.o[0m
+[22.822s] [ 17%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/program_state__type_support.cpp.o[0m
+[23.834s] [ 17%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/robot_mode__type_support.cpp.o[0m
+[24.456s] [ 18%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/robot_mode__type_support.cpp.o[0m
+[24.826s] [ 19%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/robot_mode__type_support.cpp.o[0m
+[24.964s] [ 20%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/safety_mode__type_support.cpp.o[0m
+[25.972s] [ 21%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/add_to_log__type_support.cpp.o[0m
+[26.068s] [ 21%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/safety_mode__type_support.cpp.o[0m
+[27.029s] [ 21%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/safety_mode__type_support.cpp.o[0m
+[27.488s] [ 22%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/add_to_log__type_support.cpp.o[0m
+[27.662s] [ 22%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_loaded_program__type_support.cpp.o[0m
+[29.038s] [ 23%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.cpp.o[0m
+[29.121s] [ 24%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_program_state__type_support.cpp.o[0m
+[29.242s] [ 25%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/add_to_log__type_support.cpp.o[0m
+[30.316s] [ 26%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_robot_mode__type_support.cpp.o[0m
+[30.809s] [ 27%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_program_state__type_support.cpp.o[0m
+[31.382s] [ 28%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_loaded_program__type_support.cpp.o[0m
+[31.730s] [ 29%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_safety_mode__type_support.cpp.o[0m
+[32.193s] [ 29%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.cpp.o[0m
+[33.065s] [ 29%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_program_running__type_support.cpp.o[0m
+[33.149s] [ 29%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_program_state__type_support.cpp.o[0m
+[33.848s] [ 30%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.cpp.o[0m
+[34.288s] [ 31%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_program_saved__type_support.cpp.o[0m
+[34.829s] [ 32%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_robot_mode__type_support.cpp.o[0m
+[35.297s] [ 33%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/load__type_support.cpp.o[0m
+[36.551s] [ 34%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/is_program_running__type_support.cpp.o[0m
+[36.768s] [ 34%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/popup__type_support.cpp.o[0m
+[36.919s] [ 35%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_safety_mode__type_support.cpp.o[0m
+[37.660s] [ 36%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/raw_request__type_support.cpp.o[0m
+[38.677s] [ 37%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_in_remote_control__type_support.cpp.o[0m
+[38.749s] [ 37%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.cpp.o[0m
+[39.232s] [ 37%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_program_running__type_support.cpp.o[0m
+[39.525s] [ 37%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/action/set_mode__type_support.cpp.o[0m
+[40.850s] [ 38%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/load__type_support.cpp.o[0m
+[41.096s] [ 39%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_program_saved__type_support.cpp.o[0m
+[41.847s] [ 40%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_cpp.so[0m
+[42.143s] [ 40%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp
+[42.720s] [ 41%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/load__type_support.cpp.o[0m
+[42.739s] [ 42%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/popup__type_support.cpp.o[0m
+[44.599s] [ 43%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/popup__type_support.cpp.o[0m
+[44.698s] [ 43%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/raw_request__type_support.cpp.o[0m
+[46.173s] [ 43%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/raw_request__type_support.cpp.o[0m
+[46.279s] [ 44%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support.cpp.o[0m
+[47.670s] [ 45%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/action/detail/set_mode__type_support.cpp.o[0m
+[47.887s] [ 46%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_in_remote_control__type_support.cpp.o[0m
+[49.327s] [ 47%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/action/detail/dds_fastrtps/set_mode__type_support.cpp.o[0m
+[50.557s] [ 48%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[50.970s] [ 48%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp
+[51.709s] [ 48%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[52.034s] [ 48%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp
+[52.065s] [ 49%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[55.229s] [ 49%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/program_state__type_support.cpp.o[0m
+[55.315s] [ 50%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/robot_mode__type_support.cpp.o[0m
+[55.405s] [ 51%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/safety_mode__type_support.cpp.o[0m
+[55.495s] [ 51%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/add_to_log__type_support.cpp.o[0m
+[55.621s] [ 52%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_loaded_program__type_support.cpp.o[0m
+[55.726s] [ 53%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_program_state__type_support.cpp.o[0m
+[55.833s] [ 54%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_robot_mode__type_support.cpp.o[0m
+[55.930s] [ 54%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_safety_mode__type_support.cpp.o[0m
+[56.024s] [ 55%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/is_program_running__type_support.cpp.o[0m
+[56.112s] [ 56%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/is_program_saved__type_support.cpp.o[0m
+[56.208s] [ 56%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/load__type_support.cpp.o[0m
+[56.312s] [ 57%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/popup__type_support.cpp.o[0m
+[56.412s] [ 58%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/raw_request__type_support.cpp.o[0m
+[56.521s] [ 58%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/is_in_remote_control__type_support.cpp.o[0m
+[56.613s] [ 59%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/action/set_mode__type_support.cpp.o[0m
+[56.816s] [ 60%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_c.so[0m
+[56.963s] [ 60%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[56.998s] [ 61%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[61.811s] [ 62%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/program_state__type_support.c.o[0m
+[61.939s] [ 63%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/safety_mode__type_support.c.o[0m
+[62.043s] [ 64%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/add_to_log__type_support.c.o[0m
+[62.173s] [ 65%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.c.o[0m
+[62.294s] [ 65%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_program_state__type_support.c.o[0m
+[62.390s] [ 66%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.c.o[0m
+[62.483s] [ 67%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.c.o[0m
+[62.574s] [ 67%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/is_program_running__type_support.c.o[0m
+[62.667s] [ 68%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.c.o[0m
+[62.767s] [ 69%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/load__type_support.c.o[0m
+[62.862s] [ 69%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/popup__type_support.c.o[0m
+[62.964s] [ 70%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/raw_request__type_support.c.o[0m
+[63.067s] [ 71%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support.c.o[0m
+[63.169s] [ 72%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/action/detail/set_mode__type_support.c.o[0m
+[63.340s] [ 72%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/robot_mode__type_support.c.o[0m
+[63.433s] [ 72%] [32m[1mLinking C shared library libur_dashboard_msgs__rosidl_typesupport_introspection_c.so[0m
+[63.542s] [ 72%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c
+[63.572s] [ 73%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[67.321s] [ 74%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/program_state__type_support_c.cpp.o[0m
+[68.191s] [ 75%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/add_to_log__type_support_c.cpp.o[0m
+[69.240s] [ 75%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support_c.cpp.o[0m
+[70.206s] [ 76%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_program_state__type_support_c.cpp.o[0m
+[71.197s] [ 77%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support_c.cpp.o[0m
+[72.181s] [ 77%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support_c.cpp.o[0m
+[73.097s] [ 78%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/is_program_running__type_support_c.cpp.o[0m
+[74.013s] [ 79%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/is_program_saved__type_support_c.cpp.o[0m
+[75.174s] [ 80%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/load__type_support_c.cpp.o[0m
+[76.113s] [ 80%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/popup__type_support_c.cpp.o[0m
+[76.993s] [ 81%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/raw_request__type_support_c.cpp.o[0m
+[77.912s] [ 82%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support_c.cpp.o[0m
+[79.091s] [ 82%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/action/detail/set_mode__type_support_c.cpp.o[0m
+[80.252s] [ 83%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/safety_mode__type_support_c.cpp.o[0m
+[81.090s] [ 83%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/robot_mode__type_support_c.cpp.o[0m
+[82.069s] [ 84%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[82.299s] [ 84%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[82.351s] [ 84%] Built target ur_dashboard_msgs
+[82.403s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[90.401s] [ 85%] Built target ur_dashboard_msgs__py
+[90.451s] [ 85%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_program_state_s.c.o[0m
+[90.828s] [ 86%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_add_to_log_s.c.o[0m
+[91.316s] [ 86%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_loaded_program_s.c.o[0m
+[91.614s] [ 87%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_program_state_s.c.o[0m
+[91.937s] [ 88%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_robot_mode_s.c.o[0m
+[92.223s] [ 88%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_safety_mode_s.c.o[0m
+[92.513s] [ 89%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_is_program_running_s.c.o[0m
+[92.796s] [ 90%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_is_program_saved_s.c.o[0m
+[93.123s] [ 90%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_load_s.c.o[0m
+[93.424s] [ 91%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_popup_s.c.o[0m
+[93.718s] [ 92%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_raw_request_s.c.o[0m
+[94.024s] [ 93%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_is_in_remote_control_s.c.o[0m
+[94.312s] [ 93%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/action/_set_mode_s.c.o[0m
+[94.829s] [ 94%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_safety_mode_s.c.o[0m
+[95.092s] [ 95%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_robot_mode_s.c.o[0m
+[95.342s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/libur_dashboard_msgs__rosidl_generator_py.so[0m
+[95.502s] [ 96%] Built target ur_dashboard_msgs__rosidl_generator_py
+[95.562s] [ 97%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[96.956s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[97.052s] [ 97%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext
+[97.102s] [ 98%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[98.188s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[98.302s] [ 98%] Built target ur_dashboard_msgs__rosidl_typesupport_c__pyext
+[98.353s] [ 99%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[99.484s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[99.588s] [100%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext
+[99.623s] Invoked command in '/home/farhan/Universal_robot_arm/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farhan/turtlebot3_ws/install/turtlebot3_teleop:/home/farhan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/farhan/Universal_robot_arm/build/ur_dashboard_msgs -- -j4 -l4
+[99.636s] Invoking command in '/home/farhan/Universal_robot_arm/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farhan/turtlebot3_ws/install/turtlebot3_teleop:/home/farhan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/farhan/Universal_robot_arm/build/ur_dashboard_msgs
+[99.669s] -- Install configuration: "Release"
+[99.670s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ament_index/resource_index/rosidl_interfaces/ur_dashboard_msgs
+[99.671s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[99.672s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[99.674s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_program_state.h
+[99.676s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_in_remote_control.h
+[99.677s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_robot_mode.h
+[99.679s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_loaded_program.h
+[99.682s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/raw_request.h
+[99.683s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/popup.h
+[99.684s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_running.h
+[99.684s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/add_to_log.h
+[99.685s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[99.686s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.h
+[99.687s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__functions.h
+[99.687s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__functions.h
+[99.687s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__struct.h
+[99.688s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.c
+[99.688s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__functions.c
+[99.688s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.h
+[99.689s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__functions.h
+[99.689s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.h
+[99.690s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.h
+[99.690s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__functions.c
+[99.694s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support.h
+[99.697s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__struct.h
+[99.698s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.c
+[99.698s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__functions.h
+[99.698s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__struct.h
+[99.699s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.h
+[99.707s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__functions.c
+[99.707s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.h
+[99.710s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.h
+[99.711s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.h
+[99.711s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__functions.c
+[99.711s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.h
+[99.711s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.c
+[99.712s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__struct.h
+[99.718s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__struct.h
+[99.718s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__functions.c
+[99.719s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.h
+[99.719s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__functions.c
+[99.719s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__functions.h
+[99.719s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__functions.h
+[99.720s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.h
+[99.728s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__struct.h
+[99.728s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__functions.c
+[99.729s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.h
+[99.729s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.h
+[99.729s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__struct.h
+[99.729s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.h
+[99.730s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.h
+[99.730s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__functions.c
+[99.735s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__functions.h
+[99.736s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__struct.h
+[99.736s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.h
+[99.736s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__functions.h
+[99.737s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_saved.h
+[99.737s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_safety_mode.h
+[99.738s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/load.h
+[99.739s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[99.739s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[99.739s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.h
+[99.740s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__functions.h
+[99.740s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__struct.h
+[99.740s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__functions.c
+[99.740s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/set_mode.h
+[99.740s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[99.741s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/program_state.h
+[99.743s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/robot_mode.h
+[99.743s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_generator_c__visibility_control.h
+[99.744s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[99.744s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.h
+[99.744s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__functions.h
+[99.744s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__struct.h
+[99.745s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__functions.h
+[99.745s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__functions.h
+[99.745s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__struct.h
+[99.745s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.h
+[99.745s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__functions.c
+[99.746s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__struct.h
+[99.746s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__functions.c
+[99.746s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.h
+[99.746s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__functions.c
+[99.747s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/safety_mode.h
+[99.747s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.sh
+[99.747s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.dsv
+[99.748s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_c.so
+[99.748s] -- Set runtime path of "/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_c.so" to ""
+[99.748s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[99.749s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[99.749s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[99.749s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_c.h
+[99.749s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_c.h
+[99.750s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_c.h
+[99.750s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__rosidl_typesupport_fastrtps_c.h
+[99.750s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_c.h
+[99.750s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_c.h
+[99.751s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_c.h
+[99.751s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_c.h
+[99.751s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_c.h
+[99.752s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_c.h
+[99.752s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_c.h
+[99.753s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[99.753s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[99.754s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_c.h
+[99.754s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[99.754s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[99.754s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[99.755s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_c.h
+[99.755s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_c.h
+[99.755s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_c.h
+[99.756s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so
+[99.756s] -- Set runtime path of "/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[99.757s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[99.757s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[99.757s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[99.758s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__rosidl_typesupport_introspection_c.h
+[99.759s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.c
+[99.760s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.c
+[99.760s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_c.h
+[99.761s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.c
+[99.762s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_c.h
+[99.762s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.c
+[99.762s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_c.h
+[99.763s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_c.h
+[99.763s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_c.h
+[99.763s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_c.h
+[99.764s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.c
+[99.764s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_c.h
+[99.764s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_c.h
+[99.764s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_c.h
+[99.765s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.c
+[99.765s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.c
+[99.765s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.c
+[99.765s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.c
+[99.766s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support.c
+[99.766s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_c.h
+[99.766s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.c
+[99.766s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[99.767s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[99.767s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.c
+[99.767s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_c.h
+[99.767s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[99.768s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[99.768s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[99.768s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.c
+[99.768s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_c.h
+[99.768s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_c.h
+[99.769s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.c
+[99.769s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_c.h
+[99.769s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.c
+[99.769s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_c.so
+[99.769s] -- Set runtime path of "/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_c.so" to ""
+[99.770s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_c.so
+[99.770s] -- Set runtime path of "/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_c.so" to ""
+[99.771s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[99.771s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[99.771s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_running.hpp
+[99.772s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/load.hpp
+[99.772s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_saved.hpp
+[99.772s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_loaded_program.hpp
+[99.772s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_robot_mode.hpp
+[99.772s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_safety_mode.hpp
+[99.773s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/add_to_log.hpp
+[99.773s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[99.774s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__builder.hpp
+[99.776s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.hpp
+[99.777s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.hpp
+[99.778s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__traits.hpp
+[99.779s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__traits.hpp
+[99.781s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.hpp
+[99.783s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.hpp
+[99.786s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__struct.hpp
+[99.787s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.hpp
+[99.788s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__traits.hpp
+[99.788s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__builder.hpp
+[99.789s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__struct.hpp
+[99.790s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__traits.hpp
+[99.791s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.hpp
+[99.791s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__struct.hpp
+[99.791s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__traits.hpp
+[99.792s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__traits.hpp
+[99.792s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.hpp
+[99.792s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.hpp
+[99.794s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__builder.hpp
+[99.794s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__struct.hpp
+[99.795s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.hpp
+[99.795s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__struct.hpp
+[99.796s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__traits.hpp
+[99.797s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__builder.hpp
+[99.798s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.hpp
+[99.798s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__builder.hpp
+[99.798s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__struct.hpp
+[99.798s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__traits.hpp
+[99.799s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__struct.hpp
+[99.799s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__traits.hpp
+[99.799s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__builder.hpp
+[99.799s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__builder.hpp
+[99.800s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__struct.hpp
+[99.801s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__traits.hpp
+[99.801s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__builder.hpp
+[99.802s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.hpp
+[99.804s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__builder.hpp
+[99.804s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__builder.hpp
+[99.804s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support.hpp
+[99.804s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__traits.hpp
+[99.804s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.hpp
+[99.805s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__builder.hpp
+[99.805s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.hpp
+[99.805s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_program_state.hpp
+[99.805s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_in_remote_control.hpp
+[99.806s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/popup.hpp
+[99.806s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/raw_request.hpp
+[99.806s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[99.806s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/set_mode.hpp
+[99.807s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[99.807s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__struct.hpp
+[99.807s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__builder.hpp
+[99.807s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.hpp
+[99.808s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__traits.hpp
+[99.808s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[99.808s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[99.809s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/program_state.hpp
+[99.809s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/robot_mode.hpp
+[99.809s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[99.809s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__struct.hpp
+[99.810s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.hpp
+[99.810s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__struct.hpp
+[99.810s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__traits.hpp
+[99.810s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.hpp
+[99.811s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__builder.hpp
+[99.811s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__struct.hpp
+[99.813s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__builder.hpp
+[99.814s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__traits.hpp
+[99.814s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__builder.hpp
+[99.814s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.hpp
+[99.814s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__traits.hpp
+[99.814s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/safety_mode.hpp
+[99.815s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[99.815s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[99.815s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[99.815s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_cpp.hpp
+[99.815s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[99.816s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_cpp.hpp
+[99.816s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__rosidl_typesupport_fastrtps_cpp.hpp
+[99.817s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[99.817s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_cpp.hpp
+[99.817s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/dds_fastrtps
+[99.817s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_cpp.hpp
+[99.818s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_cpp.hpp
+[99.818s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_cpp.hpp
+[99.818s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_cpp.hpp
+[99.818s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_cpp.hpp
+[99.818s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[99.818s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[99.818s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[99.818s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/dds_fastrtps
+[99.818s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[99.819s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[99.819s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[99.819s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_cpp.hpp
+[99.819s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[99.819s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/dds_fastrtps
+[99.819s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[99.819s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so
+[99.819s] -- Set runtime path of "/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[99.819s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[99.820s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[99.820s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[99.820s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.cpp
+[99.820s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_cpp.hpp
+[99.820s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_cpp.hpp
+[99.820s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.cpp
+[99.820s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[99.820s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__rosidl_typesupport_introspection_cpp.hpp
+[99.820s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.cpp
+[99.821s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.cpp
+[99.821s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_cpp.hpp
+[99.821s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.cpp
+[99.821s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.cpp
+[99.821s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_cpp.hpp
+[99.821s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_cpp.hpp
+[99.821s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.cpp
+[99.821s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.cpp
+[99.821s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_cpp.hpp
+[99.821s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.cpp
+[99.821s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_cpp.hpp
+[99.821s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_cpp.hpp
+[99.822s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support.cpp
+[99.822s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.cpp
+[99.822s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_cpp.hpp
+[99.822s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[99.822s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[99.822s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp
+[99.822s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.cpp
+[99.822s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[99.822s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[99.822s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.cpp
+[99.822s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_cpp.hpp
+[99.822s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.cpp
+[99.822s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.cpp
+[99.823s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_cpp.hpp
+[99.823s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[99.823s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so
+[99.823s] -- Set runtime path of "/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[99.823s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so
+[99.823s] -- Set runtime path of "/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so" to ""
+[99.823s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.sh
+[99.823s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.dsv
+[99.824s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.12.0-py3.10.egg-info
+[99.824s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.12.0-py3.10.egg-info/top_level.txt
+[99.824s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.12.0-py3.10.egg-info/dependency_links.txt
+[99.824s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.12.0-py3.10.egg-info/SOURCES.txt
+[99.824s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.12.0-py3.10.egg-info/PKG-INFO
+[99.824s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs
+[99.824s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[99.824s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/__init__.py
+[99.825s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_c.c
+[99.825s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/libur_dashboard_msgs__rosidl_generator_py.so
+[99.825s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[99.825s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[99.825s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv
+[99.825s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_program_state_s.c
+[99.825s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_add_to_log_s.c
+[99.825s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_safety_mode_s.c
+[99.825s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_load_s.c
+[99.825s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_running_s.c
+[99.825s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_popup_s.c
+[99.825s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/__init__.py
+[99.826s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_robot_mode.py
+[99.826s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_program_state.py
+[99.826s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_robot_mode_s.c
+[99.826s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_running.py
+[99.826s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_load.py
+[99.826s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_loaded_program.py
+[99.826s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_in_remote_control_s.c
+[99.826s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_safety_mode.py
+[99.826s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_raw_request_s.c
+[99.826s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_saved.py
+[99.826s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_raw_request.py
+[99.826s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_loaded_program_s.c
+[99.826s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_in_remote_control.py
+[99.826s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_saved_s.c
+[99.826s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_popup.py
+[99.827s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_add_to_log.py
+[99.827s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action
+[99.827s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/__init__.py
+[99.827s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/_set_mode.py
+[99.827s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/_set_mode_s.c
+[99.827s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg
+[99.827s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_robot_mode_s.c
+[99.827s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_safety_mode_s.c
+[99.827s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_robot_mode.py
+[99.827s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/__init__.py
+[99.827s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_program_state_s.c
+[99.827s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_safety_mode.py
+[99.828s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_program_state.py
+[99.828s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[99.828s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[99.979s] Listing '/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs'...
+[99.979s] Compiling '/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/__init__.py'...
+[99.979s] Listing '/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action'...
+[99.980s] Compiling '/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/__init__.py'...
+[99.980s] Compiling '/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/_set_mode.py'...
+[99.980s] Listing '/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg'...
+[99.980s] Compiling '/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/__init__.py'...
+[99.980s] Compiling '/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_program_state.py'...
+[99.981s] Compiling '/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_robot_mode.py'...
+[99.981s] Compiling '/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_safety_mode.py'...
+[99.981s] Listing '/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv'...
+[99.981s] Compiling '/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/__init__.py'...
+[99.981s] Compiling '/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_add_to_log.py'...
+[99.982s] Compiling '/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_loaded_program.py'...
+[99.982s] Compiling '/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_program_state.py'...
+[99.982s] Compiling '/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_robot_mode.py'...
+[99.982s] Compiling '/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_safety_mode.py'...
+[99.982s] Compiling '/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_in_remote_control.py'...
+[99.982s] Compiling '/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_running.py'...
+[99.983s] Compiling '/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_saved.py'...
+[99.983s] Compiling '/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_load.py'...
+[99.983s] Compiling '/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_popup.py'...
+[99.983s] Compiling '/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_raw_request.py'...
+[99.991s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[99.992s] -- Set runtime path of "/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[99.992s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[99.993s] -- Set runtime path of "/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[99.994s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[99.996s] -- Set runtime path of "/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[99.996s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_py.so
+[99.998s] -- Set runtime path of "/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_py.so" to ""
+[99.998s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.idl
+[99.999s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.idl
+[99.999s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.idl
+[100.001s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.idl
+[100.002s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.idl
+[100.003s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.idl
+[100.003s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.idl
+[100.003s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.idl
+[100.003s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.idl
+[100.004s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.idl
+[100.004s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.idl
+[100.004s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.idl
+[100.005s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.idl
+[100.005s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsInRemoteControl.idl
+[100.006s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.idl
+[100.006s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.msg
+[100.006s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.msg
+[100.006s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.msg
+[100.007s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.srv
+[100.007s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog_Request.msg
+[100.007s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog_Response.msg
+[100.008s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.srv
+[100.009s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram_Request.msg
+[100.010s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram_Response.msg
+[100.010s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.srv
+[100.012s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState_Request.msg
+[100.012s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState_Response.msg
+[100.013s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.srv
+[100.013s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode_Request.msg
+[100.013s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode_Response.msg
+[100.013s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.srv
+[100.014s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode_Request.msg
+[100.014s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode_Response.msg
+[100.015s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.srv
+[100.015s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning_Request.msg
+[100.015s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning_Response.msg
+[100.016s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.srv
+[100.017s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved_Request.msg
+[100.017s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved_Response.msg
+[100.018s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.srv
+[100.019s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load_Request.msg
+[100.020s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load_Response.msg
+[100.020s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.srv
+[100.020s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup_Request.msg
+[100.021s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup_Response.msg
+[100.021s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.srv
+[100.021s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest_Request.msg
+[100.022s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest_Response.msg
+[100.022s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsInRemoteControl.srv
+[100.023s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsInRemoteControl_Request.msg
+[100.023s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsInRemoteControl_Response.msg
+[100.023s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.action
+[100.024s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ament_index/resource_index/package_run_dependencies/ur_dashboard_msgs
+[100.024s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ament_index/resource_index/parent_prefix_path/ur_dashboard_msgs
+[100.024s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.sh
+[100.025s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.dsv
+[100.025s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.sh
+[100.025s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.dsv
+[100.026s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.bash
+[100.026s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.sh
+[100.026s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.zsh
+[100.027s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.dsv
+[100.027s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv
+[100.027s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ament_index/resource_index/packages/ur_dashboard_msgs
+[100.031s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cExport.cmake
+[100.032s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cExport-release.cmake
+[100.033s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[100.035s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[100.035s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport.cmake
+[100.036s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[100.036s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport.cmake
+[100.036s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport-release.cmake
+[100.037s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cppExport.cmake
+[100.037s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[100.038s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[100.039s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[100.040s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[100.040s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport.cmake
+[100.040s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport-release.cmake
+[100.041s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_pyExport.cmake
+[100.041s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_pyExport-release.cmake
+[100.041s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake-extras.cmake
+[100.041s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[100.042s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[100.042s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[100.043s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[100.044s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[100.046s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[100.046s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig.cmake
+[100.046s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig-version.cmake
+[100.047s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.xml
+[100.051s] Invoked command in '/home/farhan/Universal_robot_arm/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farhan/turtlebot3_ws/install/turtlebot3_teleop:/home/farhan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/farhan/Universal_robot_arm/build/ur_dashboard_msgs

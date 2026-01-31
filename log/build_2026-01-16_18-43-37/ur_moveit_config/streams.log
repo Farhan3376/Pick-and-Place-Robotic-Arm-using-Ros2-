@@ -1,0 +1,77 @@
+[0.038s] Invoking command in '/home/farhan/Universal_robot_arm/build/ur_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farhan/turtlebot3_ws/install/turtlebot3_teleop:/home/farhan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/farhan/Universal_robot_arm/install/ur_moveit_config
+[0.473s] -- The C compiler identification is GNU 11.4.0
+[0.770s] -- The CXX compiler identification is GNU 11.4.0
+[0.812s] -- Detecting C compiler ABI info
+[1.074s] -- Detecting C compiler ABI info - done
+[1.108s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.111s] -- Detecting C compile features
+[1.118s] -- Detecting C compile features - done
+[1.141s] -- Detecting CXX compiler ABI info
+[1.554s] -- Detecting CXX compiler ABI info - done
+[1.606s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.607s] -- Detecting CXX compile features
+[1.610s] -- Detecting CXX compile features - done
+[1.653s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.311s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.304s] -- Configuring done
+[3.316s] -- Generating done
+[3.321s] -- Build files have been written to: /home/farhan/Universal_robot_arm/build/ur_moveit_config
+[3.330s] Invoked command in '/home/farhan/Universal_robot_arm/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farhan/turtlebot3_ws/install/turtlebot3_teleop:/home/farhan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/farhan/Universal_robot_arm/install/ur_moveit_config
+[3.335s] Invoking command in '/home/farhan/Universal_robot_arm/build/ur_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farhan/turtlebot3_ws/install/turtlebot3_teleop:/home/farhan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/farhan/Universal_robot_arm/build/ur_moveit_config -- -j4 -l4
+[3.536s] Built target ament_cmake_python_copy_ur_moveit_config
+[4.728s] running egg_info
+[4.729s] creating ur_moveit_config.egg-info
+[4.730s] writing ur_moveit_config.egg-info/PKG-INFO
+[4.730s] writing dependency_links to ur_moveit_config.egg-info/dependency_links.txt
+[4.730s] writing top-level names to ur_moveit_config.egg-info/top_level.txt
+[4.733s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[4.744s] reading manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[4.744s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[4.841s] Built target ament_cmake_python_build_ur_moveit_config_egg
+[4.876s] Invoked command in '/home/farhan/Universal_robot_arm/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farhan/turtlebot3_ws/install/turtlebot3_teleop:/home/farhan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/farhan/Universal_robot_arm/build/ur_moveit_config -- -j4 -l4
+[4.906s] Invoking command in '/home/farhan/Universal_robot_arm/build/ur_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farhan/turtlebot3_ws/install/turtlebot3_teleop:/home/farhan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/farhan/Universal_robot_arm/build/ur_moveit_config
+[4.925s] -- Install configuration: "Release"
+[4.926s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ur_moveit_config/config
+[4.926s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ur_moveit_config/config/joint_limits.yaml
+[4.926s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ur_moveit_config/config/ompl_planning.yaml
+[4.926s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ur_moveit_config/config/kinematics.yaml
+[4.927s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ur_moveit_config/config/ur_servo.yaml
+[4.927s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ur_moveit_config/config/controllers.yaml
+[4.930s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ur_moveit_config/launch
+[4.930s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ur_moveit_config/launch/ur_moveit.launch.py
+[4.930s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ur_moveit_config/rviz
+[4.930s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ur_moveit_config/rviz/view_robot.rviz
+[4.931s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ur_moveit_config/srdf
+[4.931s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ur_moveit_config/srdf/ur_macro.srdf.xacro
+[4.931s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ur_moveit_config/srdf/ur.srdf.xacro
+[4.931s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.sh
+[4.931s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.dsv
+[4.931s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.12.0-py3.10.egg-info
+[4.932s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.12.0-py3.10.egg-info/top_level.txt
+[4.932s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.12.0-py3.10.egg-info/dependency_links.txt
+[4.933s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.12.0-py3.10.egg-info/SOURCES.txt
+[4.934s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.12.0-py3.10.egg-info/PKG-INFO
+[4.934s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config
+[4.934s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/__init__.py
+[4.935s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/launch_common.py
+[5.043s] Listing '/home/farhan/Universal_robot_arm/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config'...
+[5.043s] Compiling '/home/farhan/Universal_robot_arm/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/__init__.py'...
+[5.043s] Compiling '/home/farhan/Universal_robot_arm/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/launch_common.py'...
+[5.057s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py
+[5.161s] Compiling '/home/farhan/Universal_robot_arm/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py'...
+[5.182s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ament_index/resource_index/package_run_dependencies/ur_moveit_config
+[5.182s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ament_index/resource_index/parent_prefix_path/ur_moveit_config
+[5.183s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.sh
+[5.185s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.dsv
+[5.185s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ur_moveit_config/environment/path.sh
+[5.187s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ur_moveit_config/environment/path.dsv
+[5.187s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ur_moveit_config/local_setup.bash
+[5.190s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ur_moveit_config/local_setup.sh
+[5.192s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ur_moveit_config/local_setup.zsh
+[5.192s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ur_moveit_config/local_setup.dsv
+[5.192s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ur_moveit_config/package.dsv
+[5.192s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ament_index/resource_index/packages/ur_moveit_config
+[5.192s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig.cmake
+[5.192s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig-version.cmake
+[5.193s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_moveit_config/share/ur_moveit_config/package.xml
+[5.196s] Invoked command in '/home/farhan/Universal_robot_arm/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farhan/turtlebot3_ws/install/turtlebot3_teleop:/home/farhan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/farhan/Universal_robot_arm/build/ur_moveit_config

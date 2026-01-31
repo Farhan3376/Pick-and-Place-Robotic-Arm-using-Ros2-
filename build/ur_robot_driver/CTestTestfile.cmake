@@ -1,0 +1,8 @@
+# CMake generated Testfile for 
+# Source directory: /home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_robot_driver
+# Build directory: /home/farhan/Universal_robot_arm/build/ur_robot_driver
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(test_test_mock_hardware.py "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/farhan/Universal_robot_arm/build/ur_robot_driver/test_results/ur_robot_driver/test_test_mock_hardware.py.xunit.xml" "--package-name" "ur_robot_driver" "--output-file" "/home/farhan/Universal_robot_arm/build/ur_robot_driver/launch_test/test_test_mock_hardware.py.txt" "--command" "/usr/bin/python3" "-m" "launch_testing.launch_test" "/home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_robot_driver/test/test_mock_hardware.py" "--junit-xml=/home/farhan/Universal_robot_arm/build/ur_robot_driver/test_results/ur_robot_driver/test_test_mock_hardware.py.xunit.xml" "--package-name=ur_robot_driver")
+set_tests_properties(test_test_mock_hardware.py PROPERTIES  LABELS "launch_test" TIMEOUT "800" WORKING_DIRECTORY "/home/farhan/Universal_robot_arm/build/ur_robot_driver" _BACKTRACE_TRIPLES "/opt/ros/humble/share/ament_cmake_test/cmake/ament_add_test.cmake;125;add_test;/opt/ros/humble/share/launch_testing_ament_cmake/cmake/add_launch_test.cmake;131;ament_add_test;/home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_robot_driver/CMakeLists.txt;223;add_launch_test;/home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_robot_driver/CMakeLists.txt;0;")

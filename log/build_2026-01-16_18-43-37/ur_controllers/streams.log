@@ -1,0 +1,213 @@
+[0.023s] Invoking command in '/home/farhan/Universal_robot_arm/build/ur_controllers': AMENT_PREFIX_PATH=/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs:/home/farhan/turtlebot3_ws/install/turtlebot3:/home/farhan/turtlebot3_ws/install/turtlebot3_simulations:/home/farhan/turtlebot3_ws/install/turtlebot3_bringup:/home/farhan/turtlebot3_ws/install/turtlebot3_node:/home/farhan/turtlebot3_ws/install/turtlebot3_navigation2:/home/farhan/turtlebot3_ws/install/turtlebot3_fake_node:/home/farhan/turtlebot3_ws/install/turtlebot3_msgs:/home/farhan/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/farhan/turtlebot3_ws/install/turtlebot3_gazebo:/home/farhan/turtlebot3_ws/install/turtlebot3_description:/home/farhan/turtlebot3_ws/install/turtlebot3_cartographer:/home/farhan/turtlebot3_ws/install/dynamixel_sdk_examples:/home/farhan/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/farhan/turtlebot3_ws/install/dynamixel_sdk:/home/farhan/turtlebot3_ws/install/turtlebot3_teleop:/home/farhan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/lib:/home/farhan/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/farhan/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/farhan/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/farhan/Universal_robot_arm/install/ur_controllers
+[0.197s] -- The C compiler identification is GNU 11.4.0
+[0.352s] -- The CXX compiler identification is GNU 11.4.0
+[0.374s] -- Detecting C compiler ABI info
+[0.660s] -- Detecting C compiler ABI info - done
+[0.694s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.696s] -- Detecting C compile features
+[0.696s] -- Detecting C compile features - done
+[0.706s] -- Detecting CXX compiler ABI info
+[0.983s] -- Detecting CXX compiler ABI info - done
+[1.012s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.013s] -- Detecting CXX compile features
+[1.015s] -- Detecting CXX compile features - done
+[1.040s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.498s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.813s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[1.826s] -- Found controller_interface: 2.51.0 (/opt/ros/humble/share/controller_interface/cmake)
+[1.981s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.997s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.026s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.068s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.136s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.895s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.911s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.001s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.143s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.153s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.208s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.219s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.236s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.263s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.298s] -- Looking for pthread.h
+[3.543s] -- Looking for pthread.h - found
+[3.543s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.791s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.795s] -- Found Threads: TRUE  
+[4.241s] -- Found joint_trajectory_controller: 2.49.1 (/opt/ros/humble/share/joint_trajectory_controller/cmake)
+[4.545s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[4.612s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[4.653s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.658s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.658s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.935s] -- Found ur_dashboard_msgs: 2.12.0 (/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[5.036s] -- Found ur_msgs: 2.3.0 (/opt/ros/humble/share/ur_msgs/cmake)
+[5.257s] -- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[5.278s] -- Found controller_manager: 2.51.0 (/opt/ros/humble/share/controller_manager/cmake)
+[5.416s] -- Found ros2_control_test_assets: 2.51.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[5.432s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[5.458s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[5.460s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.771s] -- Configuring done
+[6.213s] -- Generating done
+[6.281s] -- Build files have been written to: /home/farhan/Universal_robot_arm/build/ur_controllers
+[6.348s] Invoked command in '/home/farhan/Universal_robot_arm/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs:/home/farhan/turtlebot3_ws/install/turtlebot3:/home/farhan/turtlebot3_ws/install/turtlebot3_simulations:/home/farhan/turtlebot3_ws/install/turtlebot3_bringup:/home/farhan/turtlebot3_ws/install/turtlebot3_node:/home/farhan/turtlebot3_ws/install/turtlebot3_navigation2:/home/farhan/turtlebot3_ws/install/turtlebot3_fake_node:/home/farhan/turtlebot3_ws/install/turtlebot3_msgs:/home/farhan/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/farhan/turtlebot3_ws/install/turtlebot3_gazebo:/home/farhan/turtlebot3_ws/install/turtlebot3_description:/home/farhan/turtlebot3_ws/install/turtlebot3_cartographer:/home/farhan/turtlebot3_ws/install/dynamixel_sdk_examples:/home/farhan/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/farhan/turtlebot3_ws/install/dynamixel_sdk:/home/farhan/turtlebot3_ws/install/turtlebot3_teleop:/home/farhan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/lib:/home/farhan/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/farhan/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/farhan/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/farhan/Universal_robot_arm/install/ur_controllers
+[6.350s] Invoking command in '/home/farhan/Universal_robot_arm/build/ur_controllers': AMENT_PREFIX_PATH=/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs:/home/farhan/turtlebot3_ws/install/turtlebot3:/home/farhan/turtlebot3_ws/install/turtlebot3_simulations:/home/farhan/turtlebot3_ws/install/turtlebot3_bringup:/home/farhan/turtlebot3_ws/install/turtlebot3_node:/home/farhan/turtlebot3_ws/install/turtlebot3_navigation2:/home/farhan/turtlebot3_ws/install/turtlebot3_fake_node:/home/farhan/turtlebot3_ws/install/turtlebot3_msgs:/home/farhan/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/farhan/turtlebot3_ws/install/turtlebot3_gazebo:/home/farhan/turtlebot3_ws/install/turtlebot3_description:/home/farhan/turtlebot3_ws/install/turtlebot3_cartographer:/home/farhan/turtlebot3_ws/install/dynamixel_sdk_examples:/home/farhan/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/farhan/turtlebot3_ws/install/dynamixel_sdk:/home/farhan/turtlebot3_ws/install/turtlebot3_teleop:/home/farhan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/lib:/home/farhan/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/farhan/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/farhan/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/farhan/Universal_robot_arm/build/ur_controllers -- -j4 -l4
+[6.532s] [  2%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/farhan/Universal_robot_arm/build/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp /home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_controllers/src/tool_contact_controller_parameters.yaml `[0m
+[7.033s] [  5%] [34m[1mCreating deprecated header file /home/farhan/Universal_robot_arm/build/ur_controllers/include/tool_contact_controller_parameters.hpp[0m
+[7.077s] [  5%] Built target tool_contact_controller_parameters
+[7.126s] [  8%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/farhan/Universal_robot_arm/build/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp /home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_controllers/src/speed_scaling_state_broadcaster_parameters.yaml `[0m
+[7.509s] [ 11%] [34m[1mCreating deprecated header file /home/farhan/Universal_robot_arm/build/ur_controllers/include/speed_scaling_state_broadcaster_parameters.hpp[0m
+[7.556s] [ 11%] Built target speed_scaling_state_broadcaster_parameters
+[7.600s] [ 14%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/farhan/Universal_robot_arm/build/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp /home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_controllers/src/scaled_joint_trajectory_controller_parameters.yaml `[0m
+[7.938s] [ 17%] [34m[1mCreating deprecated header file /home/farhan/Universal_robot_arm/build/ur_controllers/include/scaled_joint_trajectory_controller_parameters.hpp[0m
+[7.979s] [ 17%] Built target scaled_joint_trajectory_controller_parameters
+[8.033s] [ 20%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/farhan/Universal_robot_arm/build/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp /home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller_parameters.yaml `[0m
+[8.459s] [ 23%] [34m[1mCreating deprecated header file /home/farhan/Universal_robot_arm/build/ur_controllers/include/freedrive_mode_controller_parameters.hpp[0m
+[8.508s] [ 23%] Built target freedrive_mode_controller_parameters
+[8.556s] [ 26%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/farhan/Universal_robot_arm/build/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp /home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_controllers/src/passthrough_trajectory_controller_parameters.yaml `[0m
+[9.166s] [ 29%] [34m[1mCreating deprecated header file /home/farhan/Universal_robot_arm/build/ur_controllers/include/passthrough_trajectory_controller_parameters.hpp[0m
+[9.208s] [ 29%] Built target passthrough_trajectory_controller_parameters
+[9.255s] [ 32%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/farhan/Universal_robot_arm/build/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp /home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_controllers/src/ur_configuration_controller_parameters.yaml `[0m
+[9.646s] [ 35%] [34m[1mCreating deprecated header file /home/farhan/Universal_robot_arm/build/ur_controllers/include/ur_configuration_controller_parameters.hpp[0m
+[9.688s] [ 35%] Built target ur_configuration_controller_parameters
+[9.733s] [ 38%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[12.673s] [ 41%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[13.176s] [ 41%] Built target gmock_main
+[13.225s] [ 44%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[31.247s] [ 47%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[38.518s] [ 50%] [32m[1mLinking CXX static library libgmock.a[0m
+[38.679s] [ 50%] Built target gmock
+[38.730s] [ 52%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/farhan/Universal_robot_arm/build/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp /home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller_parameters.yaml `[0m
+[39.179s] [ 55%] [34m[1mCreating deprecated header file /home/farhan/Universal_robot_arm/build/ur_controllers/include/gpio_controller_parameters.hpp[0m
+[39.220s] [ 55%] Built target gpio_controller_parameters
+[39.268s] [ 58%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/farhan/Universal_robot_arm/build/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp /home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_controllers/src/force_mode_controller_parameters.yaml `[0m
+[39.694s] [ 61%] [34m[1mCreating deprecated header file /home/farhan/Universal_robot_arm/build/ur_controllers/include/force_mode_controller_parameters.hpp[0m
+[39.737s] [ 61%] Built target force_mode_controller_parameters
+[39.788s] [ 64%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/tool_contact_controller.cpp.o[0m
+[53.824s] [ 67%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/speed_scaling_state_broadcaster.cpp.o[0m
+[67.172s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/freedrive_mode_controller.cpp.o[0m
+[93.576s] [ 73%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/gpio_controller.cpp.o[0m
+[124.815s] [ 76%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/passthrough_trajectory_controller.cpp.o[0m
+[146.271s] [ 79%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/ur_configuration_controller.cpp.o[0m
+[157.654s] [ 82%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/scaled_joint_trajectory_controller.cpp.o[0m
+[171.496s] [ 85%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/force_mode_controller.cpp.o[0m
+[186.516s] [ 88%] [32m[1mLinking CXX shared library libur_controllers.so[0m
+[187.870s] [ 88%] Built target ur_controllers
+[187.914s] [ 91%] [32mBuilding CXX object CMakeFiles/test_load_force_mode_controller.dir/test/test_load_force_mode_controller.cpp.o[0m
+[202.233s] [ 94%] [32m[1mLinking CXX executable test_load_force_mode_controller[0m
+[203.028s] [ 94%] Built target test_load_force_mode_controller
+[203.073s] [ 97%] [32mBuilding CXX object CMakeFiles/test_load_freedrive_mode_controller.dir/test/test_load_freedrive_mode_controller.cpp.o[0m
+[216.173s] [100%] [32m[1mLinking CXX executable test_load_freedrive_mode_controller[0m
+[216.711s] [100%] Built target test_load_freedrive_mode_controller
+[216.732s] Invoked command in '/home/farhan/Universal_robot_arm/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs:/home/farhan/turtlebot3_ws/install/turtlebot3:/home/farhan/turtlebot3_ws/install/turtlebot3_simulations:/home/farhan/turtlebot3_ws/install/turtlebot3_bringup:/home/farhan/turtlebot3_ws/install/turtlebot3_node:/home/farhan/turtlebot3_ws/install/turtlebot3_navigation2:/home/farhan/turtlebot3_ws/install/turtlebot3_fake_node:/home/farhan/turtlebot3_ws/install/turtlebot3_msgs:/home/farhan/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/farhan/turtlebot3_ws/install/turtlebot3_gazebo:/home/farhan/turtlebot3_ws/install/turtlebot3_description:/home/farhan/turtlebot3_ws/install/turtlebot3_cartographer:/home/farhan/turtlebot3_ws/install/dynamixel_sdk_examples:/home/farhan/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/farhan/turtlebot3_ws/install/dynamixel_sdk:/home/farhan/turtlebot3_ws/install/turtlebot3_teleop:/home/farhan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/lib:/home/farhan/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/farhan/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/farhan/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/farhan/Universal_robot_arm/build/ur_controllers -- -j4 -l4
+[216.737s] Invoking command in '/home/farhan/Universal_robot_arm/build/ur_controllers': AMENT_PREFIX_PATH=/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs:/home/farhan/turtlebot3_ws/install/turtlebot3:/home/farhan/turtlebot3_ws/install/turtlebot3_simulations:/home/farhan/turtlebot3_ws/install/turtlebot3_bringup:/home/farhan/turtlebot3_ws/install/turtlebot3_node:/home/farhan/turtlebot3_ws/install/turtlebot3_navigation2:/home/farhan/turtlebot3_ws/install/turtlebot3_fake_node:/home/farhan/turtlebot3_ws/install/turtlebot3_msgs:/home/farhan/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/farhan/turtlebot3_ws/install/turtlebot3_gazebo:/home/farhan/turtlebot3_ws/install/turtlebot3_description:/home/farhan/turtlebot3_ws/install/turtlebot3_cartographer:/home/farhan/turtlebot3_ws/install/dynamixel_sdk_examples:/home/farhan/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/farhan/turtlebot3_ws/install/dynamixel_sdk:/home/farhan/turtlebot3_ws/install/turtlebot3_teleop:/home/farhan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/lib:/home/farhan/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/farhan/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/farhan/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/farhan/Universal_robot_arm/build/ur_controllers
+[216.751s] -- Install configuration: "Release"
+[216.752s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers
+[216.752s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[216.752s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[216.752s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[216.752s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[216.753s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[216.753s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[216.753s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[216.753s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[216.754s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers
+[216.754s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[216.754s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[216.754s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[216.755s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[216.755s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[216.755s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[216.755s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[216.756s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[216.756s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers
+[216.756s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[216.757s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[216.757s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[216.757s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[216.757s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[216.757s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[216.757s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[216.758s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[216.758s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers
+[216.758s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[216.758s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[216.758s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[216.758s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[216.758s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[216.758s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[216.759s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[216.759s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[216.759s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers
+[216.759s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[216.759s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[216.759s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[216.759s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[216.759s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[216.759s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[216.760s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[216.760s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[216.760s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers
+[216.760s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[216.760s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[216.761s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[216.761s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[216.761s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[216.761s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[216.761s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[216.761s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[216.761s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers
+[216.761s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[216.761s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[216.761s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[216.762s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[216.762s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[216.762s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[216.762s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[216.762s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[216.762s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers
+[216.762s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[216.762s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[216.762s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[216.762s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[216.763s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[216.763s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[216.763s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[216.763s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[216.763s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[216.763s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/lib/libur_controllers.so
+[216.765s] -- Set runtime path of "/home/farhan/Universal_robot_arm/install/ur_controllers/lib/libur_controllers.so" to ""
+[216.765s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include
+[216.765s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers
+[216.765s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp
+[216.765s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+[216.766s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+[216.766s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/force_mode_controller.hpp
+[216.766s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp
+[216.766s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp
+[216.766s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/tool_contact_controller.hpp
+[216.766s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+[216.767s] -- Up-to-date: /home/farhan/Universal_robot_arm/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[216.767s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+[216.767s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+[216.768s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+[216.768s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+[216.768s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+[216.768s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+[216.769s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/share/ur_controllers/environment/path.sh
+[216.769s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/share/ur_controllers/environment/path.dsv
+[216.769s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/share/ur_controllers/local_setup.bash
+[216.770s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/share/ur_controllers/local_setup.sh
+[216.770s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/share/ur_controllers/local_setup.zsh
+[216.770s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/share/ur_controllers/local_setup.dsv
+[216.770s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/share/ur_controllers/package.dsv
+[216.771s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+[216.771s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+[216.772s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[216.772s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[216.772s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[216.772s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+[216.773s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+[216.773s] -- Installing: /home/farhan/Universal_robot_arm/install/ur_controllers/share/ur_controllers/package.xml
+[216.778s] Invoked command in '/home/farhan/Universal_robot_arm/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs:/home/farhan/turtlebot3_ws/install/turtlebot3:/home/farhan/turtlebot3_ws/install/turtlebot3_simulations:/home/farhan/turtlebot3_ws/install/turtlebot3_bringup:/home/farhan/turtlebot3_ws/install/turtlebot3_node:/home/farhan/turtlebot3_ws/install/turtlebot3_navigation2:/home/farhan/turtlebot3_ws/install/turtlebot3_fake_node:/home/farhan/turtlebot3_ws/install/turtlebot3_msgs:/home/farhan/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/farhan/turtlebot3_ws/install/turtlebot3_gazebo:/home/farhan/turtlebot3_ws/install/turtlebot3_description:/home/farhan/turtlebot3_ws/install/turtlebot3_cartographer:/home/farhan/turtlebot3_ws/install/dynamixel_sdk_examples:/home/farhan/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/farhan/turtlebot3_ws/install/dynamixel_sdk:/home/farhan/turtlebot3_ws/install/turtlebot3_teleop:/home/farhan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/lib:/home/farhan/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/farhan/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/farhan/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/farhan/Universal_robot_arm/build/ur_controllers

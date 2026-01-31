@@ -1,0 +1,33 @@
+# Pick and Place Configuration
+pick_and_place:
+  ros__parameters:
+    # Planning group
+    planning_group: "ur_manipulator"
+    end_effector_link: "tool0"
+    planning_frame: "base_link"
+    
+    # Motion parameters
+    max_velocity_scaling: 0.3
+    max_acceleration_scaling: 0.3
+    planning_attempts: 10
+    planning_time: 5.0
+    
+    # Gripper parameters
+    gripper_open_position: 0.0
+    gripper_closed_position: 0.8
+    
+    # Approach/retreat offset (meters)
+    pre_grasp_offset: 0.1
+    
+    # Object positions (x, y, z in meters)
+    objects:
+      red_cube: [0.4, 0.15, 0.45]
+      green_cube: [0.4, -0.15, 0.45]
+      blue_cylinder: [0.6, 0.0, 0.45]
+      yellow_sphere: [0.5, 0.3, 0.45]
+    
+    # Place target position
+    place_position: [0.5, -0.4, 0.45]
+    
+    # Home position
+    home_position: [0.3, 0.0, 0.5]

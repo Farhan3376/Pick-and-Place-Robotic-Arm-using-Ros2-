@@ -1,0 +1,40 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/farhan/Universal_robot_arm/build/ur5e_gripper_gazebo
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/launch/ur5e_robotiq_gazebo.launch.py
+-- Symlinking: /home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/urdf/ur5e_robotiq.urdf.xacro
+-- Symlinking: /home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/config/initial_positions.yaml
+-- Symlinking: /home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/config/ur5e_robotiq_controllers.yaml
+-- Symlinking: /home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/worlds/pick_place_world.sdf
+-- Symlinking: /home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ament_index/resource_index/package_run_dependencies/ur5e_gripper_gazebo
+-- Symlinking: /home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ament_index/resource_index/parent_prefix_path/ur5e_gripper_gazebo
+-- Symlinking: /home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/environment/ament_prefix_path.sh
+-- Symlinking: /home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/environment/ament_prefix_path.dsv
+-- Symlinking: /home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/environment/path.sh
+-- Symlinking: /home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/environment/path.dsv
+-- Symlinking: /home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/local_setup.bash
+-- Symlinking: /home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/local_setup.sh
+-- Symlinking: /home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/local_setup.zsh
+-- Symlinking: /home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/local_setup.dsv
+-- Symlinking: /home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/package.dsv
+-- Symlinking: /home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ament_index/resource_index/packages/ur5e_gripper_gazebo
+-- Symlinking: /home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/cmake/ur5e_gripper_gazeboConfig.cmake
+-- Symlinking: /home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/cmake/ur5e_gripper_gazeboConfig-version.cmake
+-- Symlinking: /home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/package.xml

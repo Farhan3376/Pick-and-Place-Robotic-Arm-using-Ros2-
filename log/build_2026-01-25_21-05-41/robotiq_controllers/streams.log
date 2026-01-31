@@ -1,0 +1,83 @@
+[0.046s] Invoking command in '/home/farhan/Universal_robot_arm/build/robotiq_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farhan/turtlebot3_ws/install/turtlebot3_teleop:/home/farhan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/farhan/Universal_robot_arm/src/ros2_robotiq_gripper/robotiq_controllers -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/farhan/Universal_robot_arm/install/robotiq_controllers
+[0.358s] -- The C compiler identification is GNU 11.4.0
+[0.696s] -- The CXX compiler identification is GNU 11.4.0
+[0.739s] -- Detecting C compiler ABI info
+[1.076s] -- Detecting C compiler ABI info - done
+[1.109s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.109s] -- Detecting C compile features
+[1.116s] -- Detecting C compile features - done
+[1.118s] -- Detecting CXX compiler ABI info
+[1.679s] -- Detecting CXX compiler ABI info - done
+[1.765s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.765s] -- Detecting CXX compile features
+[1.767s] -- Detecting CXX compile features - done
+[1.785s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.598s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.547s] -- Found controller_interface: 2.51.0 (/opt/ros/humble/share/controller_interface/cmake)
+[3.979s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.003s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.056s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.134s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.253s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.021s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.090s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.490s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[6.755s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.772s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[6.845s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.863s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[6.896s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[6.947s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.020s] -- Looking for pthread.h
+[7.625s] -- Looking for pthread.h - found
+[7.625s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.104s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.110s] -- Found Threads: TRUE  
+[8.907s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[9.060s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.450s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.451s] -- Configured cppcheck include dirs: /home/farhan/Universal_robot_arm/src/ros2_robotiq_gripper/robotiq_controllers/include
+[9.451s] -- Configured cppcheck exclude dirs and/or files: 
+[9.458s] -- Added test 'lint_cmake' to check CMake code style
+[9.487s] -- Configuring done
+[9.715s] -- Generating done
+[9.743s] -- Build files have been written to: /home/farhan/Universal_robot_arm/build/robotiq_controllers
+[9.774s] Invoked command in '/home/farhan/Universal_robot_arm/build/robotiq_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farhan/turtlebot3_ws/install/turtlebot3_teleop:/home/farhan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/farhan/Universal_robot_arm/src/ros2_robotiq_gripper/robotiq_controllers -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/farhan/Universal_robot_arm/install/robotiq_controllers
+[9.775s] Invoking command in '/home/farhan/Universal_robot_arm/build/robotiq_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farhan/turtlebot3_ws/install/turtlebot3_teleop:/home/farhan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/farhan/Universal_robot_arm/build/robotiq_controllers -- -j4 -l4
+[9.996s] [ 50%] [32mBuilding CXX object CMakeFiles/robotiq_controllers.dir/src/robotiq_activation_controller.cpp.o[0m
+[31.681s] [100%] [32m[1mLinking CXX shared library librobotiq_controllers.so[0m
+[32.819s] [100%] Built target robotiq_controllers
+[32.924s] Invoked command in '/home/farhan/Universal_robot_arm/build/robotiq_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farhan/turtlebot3_ws/install/turtlebot3_teleop:/home/farhan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/farhan/Universal_robot_arm/build/robotiq_controllers -- -j4 -l4
+[32.928s] Invoking command in '/home/farhan/Universal_robot_arm/build/robotiq_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farhan/turtlebot3_ws/install/turtlebot3_teleop:/home/farhan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/farhan/Universal_robot_arm/build/robotiq_controllers
+[33.017s] -- Install configuration: "Release"
+[33.019s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/share/robotiq_controllers/controller_plugins.xml
+[33.021s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/lib/librobotiq_controllers.so
+[33.028s] -- Set runtime path of "/home/farhan/Universal_robot_arm/install/robotiq_controllers/lib/librobotiq_controllers.so" to ""
+[33.033s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/include
+[33.034s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/include/robotiq_controllers
+[33.036s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/include/robotiq_controllers/robotiq_activation_controller.hpp
+[33.038s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/share/robotiq_controllers/environment/library_path.sh
+[33.041s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/share/robotiq_controllers/environment/library_path.dsv
+[33.042s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/share/ament_index/resource_index/package_run_dependencies/robotiq_controllers
+[33.044s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/share/ament_index/resource_index/parent_prefix_path/robotiq_controllers
+[33.044s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/share/robotiq_controllers/environment/ament_prefix_path.sh
+[33.049s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/share/robotiq_controllers/environment/ament_prefix_path.dsv
+[33.050s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/share/robotiq_controllers/environment/path.sh
+[33.054s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/share/robotiq_controllers/environment/path.dsv
+[33.054s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/share/robotiq_controllers/local_setup.bash
+[33.055s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/share/robotiq_controllers/local_setup.sh
+[33.055s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/share/robotiq_controllers/local_setup.zsh
+[33.055s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/share/robotiq_controllers/local_setup.dsv
+[33.056s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/share/robotiq_controllers/package.dsv
+[33.057s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/share/ament_index/resource_index/packages/robotiq_controllers
+[33.057s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/robotiq_controllers
+[33.057s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/share/robotiq_controllers/cmake/export_robotiq_controllersExport.cmake
+[33.057s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/share/robotiq_controllers/cmake/export_robotiq_controllersExport-release.cmake
+[33.059s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/share/robotiq_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.059s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/share/robotiq_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[33.064s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/share/robotiq_controllers/cmake/ament_cmake_export_targets-extras.cmake
+[33.069s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/share/robotiq_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.070s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/share/robotiq_controllers/cmake/robotiq_controllersConfig.cmake
+[33.070s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/share/robotiq_controllers/cmake/robotiq_controllersConfig-version.cmake
+[33.071s] -- Installing: /home/farhan/Universal_robot_arm/install/robotiq_controllers/share/robotiq_controllers/package.xml
+[33.074s] Invoked command in '/home/farhan/Universal_robot_arm/build/robotiq_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/farhan/turtlebot3_ws/install/turtlebot3_teleop:/home/farhan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/farhan/Universal_robot_arm/build/robotiq_controllers

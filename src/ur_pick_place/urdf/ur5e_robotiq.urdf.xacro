@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="ur5e_robotiq">
+  <!-- Robot description for UR5e with Robotiq 2F-85 Gripper -->
+  
+  <!-- Arguments -->
+  <xacro:arg name="ur_type" default="ur5e"/>
+  <xacro:arg name="use_fake_hardware" default="true"/>
+  <xacro:arg name="sim_gazebo" default="false"/>
+  <xacro:arg name="sim_ignition" default="true"/>
+  <xacro:arg name="simulation_controllers" default=""/>
+  <xacro:arg name="initial_positions_file" default=""/>
+  <xacro:arg name="gripper_com_port" default="/dev/ttyUSB0"/>
+  
+  <!-- Safety settings -->
+  <xacro:arg name="safety_limits" default="true"/>
+  <xacro:arg name="safety_pos_margin" default="0.15"/>
+  <xacro:arg name="safety_k_position" default="20"/>
+  
+  <!-- Include UR robot URDF -->
+  <xacro:include filename="$(find ur_description)/urdf/ur_macro.xacro"/>
+  
+  <!-- Include Robotiq gripper macros -->
+  <xacro:include filename="$(find robotiq_description)/urdf/robotiq_2f_85_macro.urdf.xacro"/>
+  <xacro:include filename="$(find robotiq_description)/urdf/ur_to_robotiq_adapter.urdf.xacro"/>
+  
+  <!-- World link -->
+  <link name="world"/>
+  
+  <!-- UR5e robot -->
+  <xacro:ur_robot
+    name="ur"
+    tf_prefix=""
+    parent="world"
+    joint_limits_parameters_file="$(find ur_description)/config/$(arg ur_type)/joint_limits.yaml"
+    kinematics_parameters_file="$(find ur_description)/config/$(arg ur_type)/default_kinematics.yaml"
+    physical_parameters_file="$(find ur_description)/config/$(arg ur_type)/physical_parameters.yaml"
+    visual_parameters_file="$(find ur_description)/config/$(arg ur_type)/visual_parameters.yaml"
+    safety_limits="$(arg safety_limits)"
+    safety_pos_margin="$(arg safety_pos_margin)"
+    safety_k_position="$(arg safety_k_position)"
+    use_fake_hardware="$(arg use_fake_hardware)"
+    sim_gazebo="$(arg sim_gazebo)"
+    sim_ignition="$(arg sim_ignition)"
+    simulation_controllers="$(arg simulation_controllers)"
+    initial_positions_file="$(arg initial_positions_file)"
+  >
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </xacro:ur_robot>
+  
+  <!-- UR to Robotiq adapter -->
+  <xacro:ur_to_robotiq prefix="" parent="tool0" child="gripper_mount_link"/>
+  
+  <!-- Robotiq 2F-85 Gripper -->
+  <xacro:robotiq_gripper 
+    name="RobotiqGripperHardwareInterface" 
+    prefix="" 
+    parent="gripper_mount_link" 
+    use_fake_hardware="$(arg use_fake_hardware)"
+    com_port="$(arg gripper_com_port)">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </xacro:robotiq_gripper>
+  
+</robot>

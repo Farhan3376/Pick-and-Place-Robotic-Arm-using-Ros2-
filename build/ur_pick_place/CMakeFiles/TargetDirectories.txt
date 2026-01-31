@@ -1,0 +1,11 @@
+/home/farhan/Universal_robot_arm/build/ur_pick_place/CMakeFiles/uninstall.dir
+/home/farhan/Universal_robot_arm/build/ur_pick_place/CMakeFiles/ur_pick_place_uninstall.dir
+/home/farhan/Universal_robot_arm/build/ur_pick_place/CMakeFiles/ament_cmake_python_copy_ur_pick_place.dir
+/home/farhan/Universal_robot_arm/build/ur_pick_place/CMakeFiles/ament_cmake_python_build_ur_pick_place_egg.dir
+/home/farhan/Universal_robot_arm/build/ur_pick_place/CMakeFiles/test.dir
+/home/farhan/Universal_robot_arm/build/ur_pick_place/CMakeFiles/edit_cache.dir
+/home/farhan/Universal_robot_arm/build/ur_pick_place/CMakeFiles/rebuild_cache.dir
+/home/farhan/Universal_robot_arm/build/ur_pick_place/CMakeFiles/list_install_components.dir
+/home/farhan/Universal_robot_arm/build/ur_pick_place/CMakeFiles/install.dir
+/home/farhan/Universal_robot_arm/build/ur_pick_place/CMakeFiles/install/local.dir
+/home/farhan/Universal_robot_arm/build/ur_pick_place/CMakeFiles/install/strip.dir

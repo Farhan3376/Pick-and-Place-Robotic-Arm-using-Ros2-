@@ -1,0 +1,15 @@
+/home/farhan/Universal_robot_arm/install/ur/share/ament_index/resource_index/package_run_dependencies/ur
+/home/farhan/Universal_robot_arm/install/ur/share/ament_index/resource_index/parent_prefix_path/ur
+/home/farhan/Universal_robot_arm/install/ur/share/ur/environment/ament_prefix_path.sh
+/home/farhan/Universal_robot_arm/install/ur/share/ur/environment/ament_prefix_path.dsv
+/home/farhan/Universal_robot_arm/install/ur/share/ur/environment/path.sh
+/home/farhan/Universal_robot_arm/install/ur/share/ur/environment/path.dsv
+/home/farhan/Universal_robot_arm/install/ur/share/ur/local_setup.bash
+/home/farhan/Universal_robot_arm/install/ur/share/ur/local_setup.sh
+/home/farhan/Universal_robot_arm/install/ur/share/ur/local_setup.zsh
+/home/farhan/Universal_robot_arm/install/ur/share/ur/local_setup.dsv
+/home/farhan/Universal_robot_arm/install/ur/share/ur/package.dsv
+/home/farhan/Universal_robot_arm/install/ur/share/ament_index/resource_index/packages/ur
+/home/farhan/Universal_robot_arm/install/ur/share/ur/cmake/urConfig.cmake
+/home/farhan/Universal_robot_arm/install/ur/share/ur/cmake/urConfig-version.cmake
+/home/farhan/Universal_robot_arm/install/ur/share/ur/package.xml

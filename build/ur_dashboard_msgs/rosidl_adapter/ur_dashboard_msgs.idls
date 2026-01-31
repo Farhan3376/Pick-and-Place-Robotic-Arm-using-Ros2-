@@ -1,0 +1,15 @@
+/home/farhan/Universal_robot_arm/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:msg/ProgramState.idl
+/home/farhan/Universal_robot_arm/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:msg/RobotMode.idl
+/home/farhan/Universal_robot_arm/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:msg/SafetyMode.idl
+/home/farhan/Universal_robot_arm/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/AddToLog.idl
+/home/farhan/Universal_robot_arm/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/GetLoadedProgram.idl
+/home/farhan/Universal_robot_arm/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/GetProgramState.idl
+/home/farhan/Universal_robot_arm/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/GetRobotMode.idl
+/home/farhan/Universal_robot_arm/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/GetSafetyMode.idl
+/home/farhan/Universal_robot_arm/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/IsProgramRunning.idl
+/home/farhan/Universal_robot_arm/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/IsProgramSaved.idl
+/home/farhan/Universal_robot_arm/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/Load.idl
+/home/farhan/Universal_robot_arm/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/Popup.idl
+/home/farhan/Universal_robot_arm/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/RawRequest.idl
+/home/farhan/Universal_robot_arm/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/IsInRemoteControl.idl
+/home/farhan/Universal_robot_arm/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:action/SetMode.idl

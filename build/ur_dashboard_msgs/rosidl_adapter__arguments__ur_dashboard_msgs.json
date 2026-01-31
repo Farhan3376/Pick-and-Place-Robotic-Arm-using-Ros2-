@@ -1,0 +1,20 @@
+{
+  "package_name": "ur_dashboard_msgs",
+  "non_idl_tuples": [
+    "/home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:msg/ProgramState.msg",
+    "/home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:msg/RobotMode.msg",
+    "/home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:msg/SafetyMode.msg",
+    "/home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/AddToLog.srv",
+    "/home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetLoadedProgram.srv",
+    "/home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetProgramState.srv",
+    "/home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetRobotMode.srv",
+    "/home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetSafetyMode.srv",
+    "/home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/IsProgramRunning.srv",
+    "/home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/IsProgramSaved.srv",
+    "/home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/Load.srv",
+    "/home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/Popup.srv",
+    "/home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/RawRequest.srv",
+    "/home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/IsInRemoteControl.srv",
+    "/home/farhan/Universal_robot_arm/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:action/SetMode.action"
+  ]
+}

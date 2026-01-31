@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ur_pick_place</name>
+  <version>0.1.0</version>
+  <description>UR5e Pick and Place with Robotiq 2F-85 Gripper</description>
+  <maintainer email="user@example.com">User</maintainer>
+  <license>BSD-3-Clause</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>control_msgs</depend>
+  <depend>trajectory_msgs</depend>
+  <depend>moveit_msgs</depend>
+  <depend>shape_msgs</depend>
+  <depend>ur_description</depend>
+  <depend>robotiq_description</depend>
+  <depend>xacro</depend>
+
+  <exec_depend>ur_moveit_config</exec_depend>
+  <exec_depend>moveit_ros_move_group</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

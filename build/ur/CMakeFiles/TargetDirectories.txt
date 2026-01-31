@@ -1,0 +1,9 @@
+/home/farhan/Universal_robot_arm/build/ur/CMakeFiles/uninstall.dir
+/home/farhan/Universal_robot_arm/build/ur/CMakeFiles/ur_uninstall.dir
+/home/farhan/Universal_robot_arm/build/ur/CMakeFiles/test.dir
+/home/farhan/Universal_robot_arm/build/ur/CMakeFiles/edit_cache.dir
+/home/farhan/Universal_robot_arm/build/ur/CMakeFiles/rebuild_cache.dir
+/home/farhan/Universal_robot_arm/build/ur/CMakeFiles/list_install_components.dir
+/home/farhan/Universal_robot_arm/build/ur/CMakeFiles/install.dir
+/home/farhan/Universal_robot_arm/build/ur/CMakeFiles/install/local.dir
+/home/farhan/Universal_robot_arm/build/ur/CMakeFiles/install/strip.dir
