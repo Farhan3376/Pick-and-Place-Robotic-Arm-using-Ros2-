@@ -7,6 +7,13 @@
       <real_time_factor>1.0</real_time_factor>
     </physics>
     
+    <!-- GUI - Camera looking at robot from behind -->
+    <gui fullscreen="0">
+      <camera name="user_camera">
+        <pose>-2.0 0 1.5 0 0.2 0</pose>
+      </camera>
+    </gui>
+    
     <!-- Plugins -->
     <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics"/>
     <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands"/>
@@ -67,6 +74,7 @@
       </link>
     </model>
 
+
     <!-- Robot Stand (where the UR5e is mounted) - top at z=0.8 -->
     <model name="robot_stand">
       <static>true</static>
@@ -94,22 +102,22 @@
       </link>
     </model>
 
-    <!-- Work Table - same height as robot stand, table top at z=0.8 -->
+    <!-- Work Table - table top at z=0.65 -->
     <model name="work_table">
       <static>true</static>
-      <pose>0.5 0 0.3 0 0 0</pose>
+      <pose>0.5 0 0.325 0 0 0</pose>
       <link name="table_link">
         <collision name="collision">
           <geometry>
             <box>
-              <size>0.5 1.2 0.7</size>
+              <size>0.5 1.2 0.65</size>
             </box>
           </geometry>
         </collision>
         <visual name="visual">
           <geometry>
             <box>
-              <size>0.5 1.2 0.8</size>
+              <size>0.5 1.2 0.65</size>
             </box>
           </geometry>
           <material>
@@ -121,12 +129,12 @@
       </link>
     </model>
 
-    <!-- Pick Object: Red Cube on table - table top at z=0.8, cube center at z=0.82 -->
+    <!-- Pick Object: Red Cube on table - table top at z=0.65, cube center at z=0.67 -->
     <model name="red_cube">
-      <pose>0.5664 0.4546 0.82 0 0 0</pose>
+      <pose>0.5932 0.4761 0.67 0 0 0</pose>
       <link name="cube_link">
         <inertial>
-          <mass>0.02</mass>
+          <mass>0.05</mass>
           <inertia>
             <ixx>0.0000053</ixx>
             <iyy>0.0000053</iyy>
@@ -172,10 +180,10 @@
       </link>
     </model>
 
-    <!-- Place Platform - on table, platform top at z=0.805 -->
+    <!-- Place Platform - on table, platform top at z=0.655 -->
     <model name="place_platform">
       <static>true</static>
-      <pose>0.55 -0.45 0.805 0 0 0</pose>
+      <pose>0.702 -0.3174 0.655 0 0 0</pose>
       <link name="platform_link">
         <collision name="collision">
           <geometry>

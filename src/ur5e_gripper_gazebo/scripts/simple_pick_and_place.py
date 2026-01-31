@@ -43,17 +43,17 @@ class PickAndPlace(Node):
         ]
         self.gripper_joints = ['robotiq_85_left_knuckle_joint']
         
-        # Predefined poses - adjusted for robot on stand
-        # Robot base at (0,0,0.8), table surface at z=0.8
+        # Predefined poses - adjusted for robot on stand at z=0.8, table at z=0.65
+        # Robot needs to reach DOWN to the table below it
         self.poses = {
             'home': [0.0, -1.57, 1.57, -1.57, -1.57, 0.0],
-            'ready': [0.0, -1.2, 1.4, -1.77, -1.57, 0.0],
-            'pre_pick': [0.5, -1.0, 1.3, -1.87, -1.57, 0.55],
-            'pick': [0.5, -0.7, 1.5, -2.37, -1.57, 0.55],
+            'ready': [0.0, -1.0, 1.2, -1.77, -1.57, 0.0],
+            'pre_pick': [0.5, -0.8, 1.0, -1.77, -1.57, 0.55],
+            'pick': [0.5, -0.5, 1.3, -2.37, -1.57, 0.55],  # Reach lower for table at z=0.65
             # Intermediate transport position (neutral, higher up)
-            'transport': [0.0, -1.2, 1.2, -1.57, -1.57, 0.0],
-            'pre_place': [-0.6, -1.0, 1.3, -1.87, -1.57, -0.55],
-            'place': [-0.6, -0.7, 1.5, -2.37, -1.57, -0.55],
+            'transport': [0.0, -1.0, 1.0, -1.57, -1.57, 0.0],
+            'pre_place': [-0.6, -0.8, 1.0, -1.77, -1.57, -0.55],
+            'place': [-0.6, -0.5, 1.3, -2.37, -1.57, -0.55],  # Reach lower for table at z=0.65
         }
         
         self.get_logger().info('Pick and Place Node initialized')
@@ -187,11 +187,12 @@ class PickAndPlace(Node):
         # 6. Close gripper to grasp
         self.get_logger().info('\n[6/11] Closing gripper to grasp object')
         self.close_gripper()
-        
+        time.sleep(1.0)  # Wait after grasping to stabilize
+
         # 7. Lift object (VERY slow and gentle)
         self.get_logger().info('\n[7/12] Lifting object gently')
         self.go_to_pose('pre_pick', 4.0)  # Very slow lift
-        time.sleep(1.5)  # Wait after lift to stabilize
+        time.sleep(1.0)  # Wait after lift to stabilize
         
         # 8. Move to neutral transport position (first step)
         self.get_logger().info('\n[8/12] Moving to transport position')
@@ -209,14 +210,22 @@ class PickAndPlace(Node):
         time.sleep(0.5)  # Settle before releasing
         
         # 11. Open gripper to release
-        self.get_logger().info('\n[11/12] Opening gripper to release object')
+        self.get_logger().info('\n[11/14] Opening gripper to release object')
         self.open_gripper()
-        time.sleep(2.0)  # Wait for cube to settle after release
+        time.sleep(1.0)  # Wait for cube to settle after release
         
-        # 12. Return home
-        self.get_logger().info('\n[12/12] Returning to home position')
-        self.go_to_pose('home', 4.0)
+        # 12. Move straight up (lift away from cube)
+        self.get_logger().info('\n[12/14] Moving straight up')
+        self.go_to_pose('pre_place', 2.0)
         
+        # 13. Move to ready position
+        self.get_logger().info('\n[13/14] Moving to ready position')
+        self.go_to_pose('ready', 3.0)
+        
+        # 14. Return home
+        self.get_logger().info('\n[14/14] Returning to home position')
+        self.go_to_pose('home', 3.0)
+
         self.get_logger().info('\n' + '='*50)
         self.get_logger().info('PICK AND PLACE COMPLETE!')
         self.get_logger().info('='*50)

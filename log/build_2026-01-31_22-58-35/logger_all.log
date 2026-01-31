@@ -1,0 +1,325 @@
+[0.732s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'ur5e_gripper_gazebo', '--symlink-install']
+[0.732s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['ur5e_gripper_gazebo'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x700f770a2fe0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x700f770a2620>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x700f770a2620>>, mixin_verb=('build',))
+[2.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.521s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/farhan/Universal_robot_arm'
+[2.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.522s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.522s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.522s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.522s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.522s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.522s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.522s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['ignore', 'ignore_ament_install']
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'ignore'
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'ignore_ament_install'
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['colcon_pkg']
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'colcon_pkg'
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['colcon_meta']
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'colcon_meta'
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['ros']
+[2.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'ros'
+[2.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['cmake', 'python']
+[2.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'cmake'
+[2.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'python'
+[2.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['python_setup_py']
+[2.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'python_setup_py'
+[2.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['ignore', 'ignore_ament_install']
+[2.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'ignore'
+[2.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'ignore_ament_install'
+[2.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['colcon_pkg']
+[2.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'colcon_pkg'
+[2.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['colcon_meta']
+[2.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'colcon_meta'
+[2.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['ros']
+[2.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'ros'
+[2.592s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur' with type 'ros.ament_cmake' and name 'ur'
+[2.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['ignore', 'ignore_ament_install']
+[2.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ignore'
+[2.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ignore_ament_install'
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['colcon_pkg']
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'colcon_pkg'
+[2.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['colcon_meta']
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'colcon_meta'
+[2.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['ros']
+[2.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ros'
+[2.609s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_bringup' with type 'ros.ament_cmake' and name 'ur_bringup'
+[2.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['ignore', 'ignore_ament_install']
+[2.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ignore'
+[2.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ignore_ament_install'
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['colcon_pkg']
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'colcon_pkg'
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['colcon_meta']
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'colcon_meta'
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['ros']
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ros'
+[2.614s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_calibration' with type 'ros.ament_cmake' and name 'ur_calibration'
+[2.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['ignore', 'ignore_ament_install']
+[2.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ignore'
+[2.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ignore_ament_install'
+[2.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['colcon_pkg']
+[2.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'colcon_pkg'
+[2.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['colcon_meta']
+[2.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'colcon_meta'
+[2.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['ros']
+[2.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ros'
+[2.635s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_controllers' with type 'ros.ament_cmake' and name 'ur_controllers'
+[2.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ignore'
+[2.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ignore_ament_install'
+[2.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['colcon_pkg']
+[2.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'colcon_pkg'
+[2.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['colcon_meta']
+[2.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'colcon_meta'
+[2.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['ros']
+[2.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ros'
+[2.641s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs' with type 'ros.ament_cmake' and name 'ur_dashboard_msgs'
+[2.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[2.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ignore'
+[2.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ignore_ament_install'
+[2.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['colcon_pkg']
+[2.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'colcon_pkg'
+[2.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['colcon_meta']
+[2.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'colcon_meta'
+[2.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['ros']
+[2.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ros'
+[2.645s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_moveit_config' with type 'ros.ament_cmake' and name 'ur_moveit_config'
+[2.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ignore'
+[2.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ignore_ament_install'
+[2.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['colcon_pkg']
+[2.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'colcon_pkg'
+[2.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['colcon_meta']
+[2.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'colcon_meta'
+[2.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['ros']
+[2.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ros'
+[2.667s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_robot_driver' with type 'ros.ament_cmake' and name 'ur_robot_driver'
+[2.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['ignore', 'ignore_ament_install']
+[2.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'ignore'
+[2.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'ignore_ament_install'
+[2.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['colcon_pkg']
+[2.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'colcon_pkg'
+[2.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['colcon_meta']
+[2.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'colcon_meta'
+[2.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['ros']
+[2.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'ros'
+[2.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['cmake', 'python']
+[2.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'cmake'
+[2.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'python'
+[2.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['python_setup_py']
+[2.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'python_setup_py'
+[2.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[2.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'ignore'
+[2.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'ignore_ament_install'
+[2.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['colcon_pkg']
+[2.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'colcon_pkg'
+[2.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['colcon_meta']
+[2.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'colcon_meta'
+[2.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['ros']
+[2.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'ros'
+[2.683s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo' with type 'ros.ament_cmake' and name 'ur_simulation_gazebo'
+[2.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extensions ['ignore', 'ignore_ament_install']
+[2.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extension 'ignore'
+[2.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extension 'ignore_ament_install'
+[2.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extensions ['colcon_pkg']
+[2.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extension 'colcon_pkg'
+[2.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extensions ['colcon_meta']
+[2.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extension 'colcon_meta'
+[2.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extensions ['ros']
+[2.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extension 'ros'
+[2.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extensions ['cmake', 'python']
+[2.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extension 'cmake'
+[2.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extension 'python'
+[2.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extensions ['python_setup_py']
+[2.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extension 'python_setup_py'
+[2.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_controllers) by extensions ['ignore', 'ignore_ament_install']
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_controllers) by extension 'ignore'
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_controllers) by extension 'ignore_ament_install'
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_controllers) by extensions ['colcon_pkg']
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_controllers) by extension 'colcon_pkg'
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_controllers) by extensions ['colcon_meta']
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_controllers) by extension 'colcon_meta'
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_controllers) by extensions ['ros']
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_controllers) by extension 'ros'
+[2.703s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_robotiq_gripper/robotiq_controllers' with type 'ros.ament_cmake' and name 'robotiq_controllers'
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_description) by extensions ['ignore', 'ignore_ament_install']
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_description) by extension 'ignore'
+[2.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_description) by extension 'ignore_ament_install'
+[2.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_description) by extensions ['colcon_pkg']
+[2.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_description) by extension 'colcon_pkg'
+[2.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_description) by extensions ['colcon_meta']
+[2.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_description) by extension 'colcon_meta'
+[2.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_description) by extensions ['ros']
+[2.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_description) by extension 'ros'
+[2.717s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_robotiq_gripper/robotiq_description' with type 'ros.ament_cmake' and name 'robotiq_description'
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_driver) by extension 'ignore'
+[2.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_driver) by extension 'ignore_ament_install'
+[2.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_driver) by extensions ['colcon_pkg']
+[2.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_driver) by extension 'colcon_pkg'
+[2.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_driver) by extensions ['colcon_meta']
+[2.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_driver) by extension 'colcon_meta'
+[2.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_driver) by extensions ['ros']
+[2.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_driver) by extension 'ros'
+[2.727s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_robotiq_gripper/robotiq_driver' with type 'ros.ament_cmake' and name 'robotiq_driver'
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_hardware_tests) by extensions ['ignore', 'ignore_ament_install']
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_hardware_tests) by extension 'ignore'
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_hardware_tests) by extension 'ignore_ament_install'
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_hardware_tests) by extensions ['colcon_pkg']
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_hardware_tests) by extension 'colcon_pkg'
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_hardware_tests) by extensions ['colcon_meta']
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_hardware_tests) by extension 'colcon_meta'
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_hardware_tests) by extensions ['ros']
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_hardware_tests) by extension 'ros'
+[2.733s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_robotiq_gripper/robotiq_hardware_tests' with type 'ros.ament_cmake' and name 'robotiq_hardware_tests'
+[2.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5e_gripper_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[2.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5e_gripper_gazebo) by extension 'ignore'
+[2.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5e_gripper_gazebo) by extension 'ignore_ament_install'
+[2.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5e_gripper_gazebo) by extensions ['colcon_pkg']
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5e_gripper_gazebo) by extension 'colcon_pkg'
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5e_gripper_gazebo) by extensions ['colcon_meta']
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5e_gripper_gazebo) by extension 'colcon_meta'
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5e_gripper_gazebo) by extensions ['ros']
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5e_gripper_gazebo) by extension 'ros'
+[2.751s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur5e_gripper_gazebo' with type 'ros.ament_cmake' and name 'ur5e_gripper_gazebo'
+[2.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_pick_place) by extensions ['ignore', 'ignore_ament_install']
+[2.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_pick_place) by extension 'ignore'
+[2.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_pick_place) by extension 'ignore_ament_install'
+[2.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_pick_place) by extensions ['colcon_pkg']
+[2.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_pick_place) by extension 'colcon_pkg'
+[2.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_pick_place) by extensions ['colcon_meta']
+[2.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_pick_place) by extension 'colcon_meta'
+[2.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_pick_place) by extensions ['ros']
+[2.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_pick_place) by extension 'ros'
+[2.759s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_pick_place' with type 'ros.ament_cmake' and name 'ur_pick_place'
+[2.760s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.760s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.760s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.760s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.760s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.900s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robotiq_controllers' in 'src/ros2_robotiq_gripper/robotiq_controllers'
+[2.900s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robotiq_description' in 'src/ros2_robotiq_gripper/robotiq_description'
+[2.900s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robotiq_driver' in 'src/ros2_robotiq_gripper/robotiq_driver'
+[2.900s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur_dashboard_msgs' in 'src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs'
+[2.900s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur_moveit_config' in 'src/Universal_Robots_ROS2_Driver/ur_moveit_config'
+[2.900s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robotiq_hardware_tests' in 'src/ros2_robotiq_gripper/robotiq_hardware_tests'
+[2.900s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur_controllers' in 'src/Universal_Robots_ROS2_Driver/ur_controllers'
+[2.901s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur_pick_place' in 'src/ur_pick_place'
+[2.901s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur_bringup' in 'src/Universal_Robots_ROS2_Driver/ur_bringup'
+[2.901s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur_robot_driver' in 'src/Universal_Robots_ROS2_Driver/ur_robot_driver'
+[2.901s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur_simulation_gazebo' in 'src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo'
+[2.901s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur_calibration' in 'src/Universal_Robots_ROS2_Driver/ur_calibration'
+[2.901s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur' in 'src/Universal_Robots_ROS2_Driver/ur'
+[2.903s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.904s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.925s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/farhan/Universal_robot_arm/install
+[2.928s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 16 installed packages in /home/farhan/turtlebot3_ws/install
+[2.939s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 498 installed packages in /opt/ros/humble
+[2.962s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.440s] Level 5:colcon.colcon_core.verb:set package 'ur5e_gripper_gazebo' build argument 'cmake_args' from command line to 'None'
+[3.440s] Level 5:colcon.colcon_core.verb:set package 'ur5e_gripper_gazebo' build argument 'cmake_target' from command line to 'None'
+[3.440s] Level 5:colcon.colcon_core.verb:set package 'ur5e_gripper_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.440s] Level 5:colcon.colcon_core.verb:set package 'ur5e_gripper_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[3.440s] Level 5:colcon.colcon_core.verb:set package 'ur5e_gripper_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[3.440s] Level 5:colcon.colcon_core.verb:set package 'ur5e_gripper_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[3.440s] Level 5:colcon.colcon_core.verb:set package 'ur5e_gripper_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[3.441s] Level 5:colcon.colcon_core.verb:set package 'ur5e_gripper_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[3.441s] Level 5:colcon.colcon_core.verb:set package 'ur5e_gripper_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.442s] DEBUG:colcon.colcon_core.verb:Building package 'ur5e_gripper_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/farhan/Universal_robot_arm/build/ur5e_gripper_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo', 'merge_install': False, 'path': '/home/farhan/Universal_robot_arm/src/ur5e_gripper_gazebo', 'symlink_install': True, 'test_result_base': None}
+[3.444s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.454s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.458s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/farhan/Universal_robot_arm/src/ur5e_gripper_gazebo' with build type 'ament_cmake'
+[3.458s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/farhan/Universal_robot_arm/src/ur5e_gripper_gazebo'
+[3.478s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.479s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.479s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farhan/Universal_robot_arm/build/ur5e_gripper_gazebo': CMAKE_PREFIX_PATH=/home/farhan/Universal_robot_arm/install/robotiq_description:/home/farhan/Universal_robot_arm/install/ur_simulation_gazebo:/home/farhan/Universal_robot_arm/install/ur:/home/farhan/Universal_robot_arm/install/ur_calibration:/home/farhan/Universal_robot_arm/install/ur_robot_driver:/home/farhan/Universal_robot_arm/install/ur_pick_place:/home/farhan/Universal_robot_arm/install/ur_moveit_config:/home/farhan/Universal_robot_arm/install/ur_bringup:/home/farhan/Universal_robot_arm/install/ur_controllers:/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs:/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo:/home/farhan/Universal_robot_arm/install/robotiq_controllers:/home/farhan/turtlebot3_ws/install/turtlebot3:/home/farhan/turtlebot3_ws/install/turtlebot3_simulations:/home/farhan/turtlebot3_ws/install/turtlebot3_bringup:/home/farhan/turtlebot3_ws/install/turtlebot3_node:/home/farhan/turtlebot3_ws/install/turtlebot3_navigation2:/home/farhan/turtlebot3_ws/install/turtlebot3_fake_node:/home/farhan/turtlebot3_ws/install/turtlebot3_msgs:/home/farhan/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/farhan/turtlebot3_ws/install/turtlebot3_gazebo:/home/farhan/turtlebot3_ws/install/turtlebot3_description:/home/farhan/turtlebot3_ws/install/turtlebot3_cartographer:/home/farhan/turtlebot3_ws/install/dynamixel_sdk_examples:/home/farhan/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/farhan/turtlebot3_ws/install/dynamixel_sdk:/home/farhan/turtlebot3_ws/install/turtlebot3_teleop:/home/farhan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/farhan/Universal_robot_arm/build/ur5e_gripper_gazebo -- -j4 -l4
+[3.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farhan/Universal_robot_arm/build/ur5e_gripper_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/farhan/Universal_robot_arm/install/robotiq_description:/home/farhan/Universal_robot_arm/install/ur_simulation_gazebo:/home/farhan/Universal_robot_arm/install/ur:/home/farhan/Universal_robot_arm/install/ur_calibration:/home/farhan/Universal_robot_arm/install/ur_robot_driver:/home/farhan/Universal_robot_arm/install/ur_pick_place:/home/farhan/Universal_robot_arm/install/ur_moveit_config:/home/farhan/Universal_robot_arm/install/ur_bringup:/home/farhan/Universal_robot_arm/install/ur_controllers:/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs:/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo:/home/farhan/Universal_robot_arm/install/robotiq_controllers:/home/farhan/turtlebot3_ws/install/turtlebot3:/home/farhan/turtlebot3_ws/install/turtlebot3_simulations:/home/farhan/turtlebot3_ws/install/turtlebot3_bringup:/home/farhan/turtlebot3_ws/install/turtlebot3_node:/home/farhan/turtlebot3_ws/install/turtlebot3_navigation2:/home/farhan/turtlebot3_ws/install/turtlebot3_fake_node:/home/farhan/turtlebot3_ws/install/turtlebot3_msgs:/home/farhan/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/farhan/turtlebot3_ws/install/turtlebot3_gazebo:/home/farhan/turtlebot3_ws/install/turtlebot3_description:/home/farhan/turtlebot3_ws/install/turtlebot3_cartographer:/home/farhan/turtlebot3_ws/install/dynamixel_sdk_examples:/home/farhan/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/farhan/turtlebot3_ws/install/dynamixel_sdk:/home/farhan/turtlebot3_ws/install/turtlebot3_teleop:/home/farhan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/farhan/Universal_robot_arm/build/ur5e_gripper_gazebo -- -j4 -l4
+[3.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farhan/Universal_robot_arm/build/ur5e_gripper_gazebo': CMAKE_PREFIX_PATH=/home/farhan/Universal_robot_arm/install/robotiq_description:/home/farhan/Universal_robot_arm/install/ur_simulation_gazebo:/home/farhan/Universal_robot_arm/install/ur:/home/farhan/Universal_robot_arm/install/ur_calibration:/home/farhan/Universal_robot_arm/install/ur_robot_driver:/home/farhan/Universal_robot_arm/install/ur_pick_place:/home/farhan/Universal_robot_arm/install/ur_moveit_config:/home/farhan/Universal_robot_arm/install/ur_bringup:/home/farhan/Universal_robot_arm/install/ur_controllers:/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs:/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo:/home/farhan/Universal_robot_arm/install/robotiq_controllers:/home/farhan/turtlebot3_ws/install/turtlebot3:/home/farhan/turtlebot3_ws/install/turtlebot3_simulations:/home/farhan/turtlebot3_ws/install/turtlebot3_bringup:/home/farhan/turtlebot3_ws/install/turtlebot3_node:/home/farhan/turtlebot3_ws/install/turtlebot3_navigation2:/home/farhan/turtlebot3_ws/install/turtlebot3_fake_node:/home/farhan/turtlebot3_ws/install/turtlebot3_msgs:/home/farhan/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/farhan/turtlebot3_ws/install/turtlebot3_gazebo:/home/farhan/turtlebot3_ws/install/turtlebot3_description:/home/farhan/turtlebot3_ws/install/turtlebot3_cartographer:/home/farhan/turtlebot3_ws/install/dynamixel_sdk_examples:/home/farhan/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/farhan/turtlebot3_ws/install/dynamixel_sdk:/home/farhan/turtlebot3_ws/install/turtlebot3_teleop:/home/farhan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/farhan/Universal_robot_arm/build/ur5e_gripper_gazebo
+[4.105s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur5e_gripper_gazebo)
+[4.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farhan/Universal_robot_arm/build/ur5e_gripper_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/farhan/Universal_robot_arm/install/robotiq_description:/home/farhan/Universal_robot_arm/install/ur_simulation_gazebo:/home/farhan/Universal_robot_arm/install/ur:/home/farhan/Universal_robot_arm/install/ur_calibration:/home/farhan/Universal_robot_arm/install/ur_robot_driver:/home/farhan/Universal_robot_arm/install/ur_pick_place:/home/farhan/Universal_robot_arm/install/ur_moveit_config:/home/farhan/Universal_robot_arm/install/ur_bringup:/home/farhan/Universal_robot_arm/install/ur_controllers:/home/farhan/Universal_robot_arm/install/ur_dashboard_msgs:/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo:/home/farhan/Universal_robot_arm/install/robotiq_controllers:/home/farhan/turtlebot3_ws/install/turtlebot3:/home/farhan/turtlebot3_ws/install/turtlebot3_simulations:/home/farhan/turtlebot3_ws/install/turtlebot3_bringup:/home/farhan/turtlebot3_ws/install/turtlebot3_node:/home/farhan/turtlebot3_ws/install/turtlebot3_navigation2:/home/farhan/turtlebot3_ws/install/turtlebot3_fake_node:/home/farhan/turtlebot3_ws/install/turtlebot3_msgs:/home/farhan/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/farhan/turtlebot3_ws/install/turtlebot3_gazebo:/home/farhan/turtlebot3_ws/install/turtlebot3_description:/home/farhan/turtlebot3_ws/install/turtlebot3_cartographer:/home/farhan/turtlebot3_ws/install/dynamixel_sdk_examples:/home/farhan/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/farhan/turtlebot3_ws/install/dynamixel_sdk:/home/farhan/turtlebot3_ws/install/turtlebot3_teleop:/home/farhan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/farhan/Universal_robot_arm/build/ur5e_gripper_gazebo
+[4.138s] Level 1:colcon.colcon_core.environment:checking '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo' for CMake module files
+[4.141s] Level 1:colcon.colcon_core.environment:checking '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo' for CMake config files
+[4.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5e_gripper_gazebo', 'cmake_prefix_path')
+[4.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/hook/cmake_prefix_path.ps1'
+[4.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/hook/cmake_prefix_path.dsv'
+[4.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/hook/cmake_prefix_path.sh'
+[4.156s] Level 1:colcon.colcon_core.environment:checking '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/bin'
+[4.157s] Level 1:colcon.colcon_core.environment:checking '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/lib/pkgconfig/ur5e_gripper_gazebo.pc'
+[4.165s] Level 1:colcon.colcon_core.environment:checking '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/lib/python3.10/site-packages'
+[4.168s] Level 1:colcon.colcon_core.environment:checking '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/bin'
+[4.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/package.ps1'
+[4.178s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/package.dsv'
+[4.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/package.sh'
+[4.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/package.bash'
+[4.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/package.zsh'
+[4.189s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/colcon-core/packages/ur5e_gripper_gazebo)
+[4.191s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur5e_gripper_gazebo)
+[4.194s] Level 1:colcon.colcon_core.environment:checking '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo' for CMake module files
+[4.204s] Level 1:colcon.colcon_core.environment:checking '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo' for CMake config files
+[4.205s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5e_gripper_gazebo', 'cmake_prefix_path')
+[4.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/hook/cmake_prefix_path.ps1'
+[4.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/hook/cmake_prefix_path.dsv'
+[4.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/hook/cmake_prefix_path.sh'
+[4.211s] Level 1:colcon.colcon_core.environment:checking '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/bin'
+[4.212s] Level 1:colcon.colcon_core.environment:checking '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/lib/pkgconfig/ur5e_gripper_gazebo.pc'
+[4.213s] Level 1:colcon.colcon_core.environment:checking '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/lib/python3.10/site-packages'
+[4.214s] Level 1:colcon.colcon_core.environment:checking '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/bin'
+[4.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/package.ps1'
+[4.219s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/package.dsv'
+[4.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/package.sh'
+[4.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/package.bash'
+[4.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/ur5e_gripper_gazebo/package.zsh'
+[4.227s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farhan/Universal_robot_arm/install/ur5e_gripper_gazebo/share/colcon-core/packages/ur5e_gripper_gazebo)
+[4.227s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.228s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.228s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.228s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.299s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.299s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.299s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.389s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.400s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/farhan/Universal_robot_arm/install/local_setup.ps1'
+[4.409s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/farhan/Universal_robot_arm/install/_local_setup_util_ps1.py'
+[4.416s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/farhan/Universal_robot_arm/install/setup.ps1'
+[4.431s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/farhan/Universal_robot_arm/install/local_setup.sh'
+[4.438s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/farhan/Universal_robot_arm/install/_local_setup_util_sh.py'
+[4.447s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/farhan/Universal_robot_arm/install/setup.sh'
+[4.457s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/farhan/Universal_robot_arm/install/local_setup.bash'
+[4.459s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/farhan/Universal_robot_arm/install/setup.bash'
+[4.472s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/farhan/Universal_robot_arm/install/local_setup.zsh'
+[4.482s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/farhan/Universal_robot_arm/install/setup.zsh'
